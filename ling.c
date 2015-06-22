@@ -14,6 +14,7 @@ Node *tail=NULL;
 
 void insert(int);
 int fetch(int);
+void display(void);
 int main(int argc, char *argv[])
 {
     int choice;
@@ -97,4 +98,7 @@ int fetch(int index)
 
     return element.value;
 
+}
+void dispaly(){
+    //code will display the elements
 }
